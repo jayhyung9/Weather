@@ -59,7 +59,7 @@ useEffect(()=>{
      ) : ( 
   <div className="container">
      <WeatherBox weather={weather} />
-     <WeatherButton cities={cities} setCity={setCity} />
+     <WeatherButton cities={cities} setCity={setCity} city={city} />
       </div>
      )}
      </div>
